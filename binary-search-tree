@@ -1,0 +1,17 @@
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+öncelikle root seçilecek dizinin en başında olan 7 root olarak belirlendi.
+
+                                                                                                                                           7
+1.adım: 5 , 7 den küçük olduğu için sol tarafa geçiyor.                                                                                            
+2.adım: 1 hem 7 hemde 5 ten küçük olduğu için 5 in sol tarafına geçti.                                                         5                       8                        
+3.adım: 8 roottan büyük olduğu için rootun sağ tarafına geçti                                                     
+4.adım: 3 roottan küçük, beşten küçük en sonda birden büyük olduğu için birin sağına geçti                            1                6                                9
+5.adım: 6 rootan küçük olduğu için sola beşten büyük olduğu için sağa geçer.
+6.adım: 0 roottan beşten ve birden küçük olduğu için bir rakamının sol tarafına geçer.                        0               3
+7.adım: 9 rootan ve sonrasında gelen sekizden buyuk olduğu için sağa geçer.
+8.adım: 4 roottan ve beşten küçük olduğu için sola sonrasında gelen birden ve üçten büyük olduğu                      2               4
+        için  3 rakamının sağına geçer.          
+9.adım: 2 roottan ve beşten kuçük olduğu için sola sonrasında gelen birden buyuk oldugu için saga 
+        daha sonra üçten küçük oluğu için üçün sağına geçer.
